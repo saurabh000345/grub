@@ -1,0 +1,56 @@
+#######
+##  FSociety
+##  Fuck Copyrights!
+##  @saurabh000345 [github, instagram, twitter]
+#######
+
+# global settings
+title-text: ""
+desktop-image: "bg.png"
+desktop-image-scale-method: "crop"
+#desktop-color: "#000"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
+
+### COMPONENTS
+#timeout label
++ label {
+	id = "__timeout__"
+	text = "%d seconds to the Red Wheelbarrow"
+	color = "#FFF"	
+	top = "95%"
+	left = "60%"
+}
+
++ image {
+	file = "fsociety.png"
+	top = "3%"
+	left = "3%"
+}
+
++ image {
+	file = "indian-gov.png"
+	top = "3%"
+	left = "80%"
+}
+
++ image { 
+	file = "aham-brahmasmi.png"
+	top = "3%"
+	left = "42%"
+}
+
++ boot_menu {
+	left = "15%"
+	top = "70%"
+	width = "70%"
+	item_color = "#FFF"
+	selected_item_pixmap_style = "select_*.png"
+	selected_item_color = "#FFF"
+	scrollbar = true
+	item_font = "DejaVu Sans Bold 14"
+}
+
