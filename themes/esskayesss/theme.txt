@@ -1,0 +1,56 @@
+##############################
+## Maintainer: @esskayesss
+##############################
+
+
+
+## Global Settings
+title-text: ""
+desktop-color: "#000"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
+
+## Components
+
+# Header Images
++ image {
+    file = "fsoc.png"
+    top = "5%"
+    right = "3%"
+}
+
++ image {
+    file = "anon.png"
+    top = "10%"
+    right = "37.5%"
+}
+
++ image {
+    file = "indian-seal.png"
+    top = "5%"
+    left = "3%"
+}
+
+# Boot Menu
++ boot_menu {
+    left = "15%"
+    top = "60%"
+    width = "70%"
+    item_color = "#FFF"
+    selected_item_pixmap_stype = "select_*.png"
+    item_font = "Iosevka Regular 14"
+}
+
+# timeout label
++ label {
+    id = "__timeout__"
+    text = "%d seconds to the Red Wheelbarrow"
+    color = "#FFF"
+    top = "95%"
+    align = "center"
+    width = "100%"
+    font = "PragmataPro Regular 12"
+}
